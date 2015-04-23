@@ -13,7 +13,7 @@ We will need to set up our app, create a Node/Express API, and then hook the API
 
 ## Step 1: Setting Up
 
-First, initialize the Node app and install the following packages:
+Initialize your Node app and install the following packages:
  * `express`
  * `body-parser`
  * `cors`
@@ -26,3 +26,10 @@ After you have initialized your app, connect to your database via MongoJS.  This
 **Breakpoint:** At this point, you should be able to start your app (`node server.js`) and see that your app is listening, and have no errrors.  Your app should also be connected to your database, but we will test that functionality later on.
 
 ## Step 2: Create API
+
+Create the following Express routes:
+
+ * **POST** /api/sighting
+ * **GET** /api/sighting?region='some-region'&species='some-species'
+ * **PUT** /api/sighting?id='09evasd09jhahs9d8h9vh'
+ * **DELETE** /api/sighting?id='09evasd09jhahs9d8h9vh'
