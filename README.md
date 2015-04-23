@@ -34,6 +34,6 @@ Create the following Express routes:
  * **PUT** `/api/sighting?id='09evasd09jhahs9d8h9vh'`
  * **DELETE** `/api/sighting?id='09evasd09jhahs9d8h9vh'`
 
-**Breakpiont:** You should be able to hit these endpoints without error.  To make sure they're actually running correctly, put `console.log` in your functions and hit those endpoints with POSTMan see that they're running.  For the routes that take queries, `console.log` those queries and make sure you're getting those queries correctly.  We have not connected these routes to the database yet.  We will add that functionality in the next step.
+**Breakpiont:** You should be able to hit these endpoints without error.  To make sure they're actually running correctly, put `console.log` in your functions and hit those endpoints with POSTMan see that they're running.  For the routes that take queries, `console.log` those queries and make sure you're getting them correctly.  We have not connected these routes to the database yet.  We will add that functionality in the next step.
 
 ## Step 3: Connect MongoDB
