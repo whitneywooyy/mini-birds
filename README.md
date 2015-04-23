@@ -29,7 +29,7 @@ After you have initialized your app, connect to your database via MongoJS.  This
 
 Create the following Express routes:
 
- * **POST** /api/sighting
- * **GET** /api/sighting?region='some-region'&species='some-species'
- * **PUT** /api/sighting?id='09evasd09jhahs9d8h9vh'
- * **DELETE** /api/sighting?id='09evasd09jhahs9d8h9vh'
+ * **POST** `/api/sighting`
+ * **GET** `/api/sighting?region='some-region'&species='some-species'`
+ * **PUT** `/api/sighting?id='09evasd09jhahs9d8h9vh'`
+ * **DELETE** `/api/sighting?id='09evasd09jhahs9d8h9vh'`
