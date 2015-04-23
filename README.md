@@ -1,5 +1,4 @@
 # mini-birds
-===============
 ## Objectives
 The purpose of this projet is to solidify your understanding of the MongoDB API.  By the end of the project, you should know how to perform CRUD operations in MongoDB and view your data (via command line or a GUI).
 
@@ -22,4 +21,8 @@ First, initialize the Node app and install the following packages:
 
 Install each module, require them at the top of your server file, and initialize your app.
 
-After you have initialized your app, connect to your database via MongoJS.  This is where you will specify the name of your database and the names of your collections.  If you need some guidance, take a look at their [documentation](https://github.com/mafintosh/mongojs)
+After you have initialized your app, connect to your database via MongoJS.  This is where you will specify the name of your database and the names of your collections.  If you need some guidance, take a look at their [documentation](https://github.com/mafintosh/mongojs).
+
+**Breakpoint:** At this point, you should be able to start your app (`node server.js`) and see that your app is listening, and have no errrors.  Your app should also be connected to your database, but we will test that functionality later on.
+
+## Step 2: Create API
