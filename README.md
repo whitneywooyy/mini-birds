@@ -46,9 +46,9 @@ In your POST route handler, create a new document under the `sightings` collecti
 
 In your GET route handler, create a MongoJS query that will return sightings.  If there is a region specified in the request query, return only the sightings in that region.  If the request query specifies a species, return only the sightings of that species.  If there are no request queries, return all of the sightings.
 
-In the PUT route handler, update **x** document (where **x** is the id supplied by the request query) with the data provided in `req.body`.
+In the PUT route handler, update *x* document (where *x* is the id supplied by the request query) with the data provided in `req.body`.
 
-In the DELETE route handler, delete **x** document where **x** is the id supplied by the reqeust query.
+In the DELETE route handler, delete *x* document where *x* is the id supplied by the reqeust query.
 
 **Breakpoint:** Test each of your endpoints with POSTMan and either the command line or RoboMong to ensure that everything is happening as expected.  If you need some dummy data, it is provided in the `birds.js` file.
 
