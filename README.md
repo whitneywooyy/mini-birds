@@ -40,15 +40,15 @@ Create the following Express routes:
 
 NOTE: I will refer to two different types of queries here.  If I say request query, I mean the query supplied from the front-end via the URL.  Otherwise, I mean a MongoDB query.
 
-In your POST route handler, create a new document under the `sightings` collection.  If you are confused how the logic for this might look, refer back to the [docs](https://github.com/mafintosh/mongojs#api).
+ - In your POST route handler, create a new document under the `sightings` collection.  If you are confused how the logic for this might look, refer back to the [docs](https://github.com/mafintosh/mongojs#api). Send an appropriate response to the client (success, or error).
 
 **Breakpoint:** You should be able to save data to your database now.  After posting one or two pieces of dummy data, check to see that that data now exists, using either the command line or a GUI like RoboMongo. If you can see data in your database, you will know that you are correctly connected to the database, and that it is saving correctly.
 
-In your GET route handler, create a MongoJS query that will return sightings.  If there is a region specified in the request query, return only the sightings in that region.  If the request query specifies a species, return only the sightings of that species.  If there are no request queries, return all of the sightings.
+ - In your GET route handler, create a MongoJS query that will return sightings.  If there is a region specified in the request query, return only the sightings in that region.  If the request query specifies a species, return only the sightings of that species.  If there are no request queries, return all of the sightings.
 
-In the PUT route handler, update *x* document (where *x* is the id supplied by the request query) with the data provided in `req.body`.
+ - In the PUT route handler, update *x* document (where *x* is the id supplied by the request query) with the data provided in `req.body`.
 
-In the DELETE route handler, delete *x* document where *x* is the id supplied by the reqeust query.
+ - In the DELETE route handler, delete *x* document where *x* is the id supplied by the reqeust query.
 
 **Breakpoint:** Test each of your endpoints with POSTMan and either the command line or RoboMong to ensure that everything is happening as expected.  If you need some dummy data, it is provided in the `birds.js` file.
 
