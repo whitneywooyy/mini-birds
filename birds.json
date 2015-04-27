@@ -30,5 +30,39 @@
         "name": "greater sage grouse",
         "order": "GALLIFORMES", 
         "status": "near threatened"
-    }]
+    }],
+
+    "sightings":[{
+			"bird": {
+        "name": "greater sage grouse",
+        "order": "GALLIFORMES", 
+        "status": "near threatened"
+    	},
+    	"region":"Provo",
+    	"date":"4/26/15"
+		}, {
+			"bird": {
+        "name": "greater sage grouse",
+        "order": "GALLIFORMES", 
+        "status": "near threatened"
+    	},
+    	"region":"Provo",
+    	"date":"4/26/15"
+		}, {
+			"bird": {
+        "name": "osprey", 
+        "order": "Accipitriformes",
+        "status": "least concern"
+    	},
+    	"region":"California",
+    	"date":"4/28/15"
+		}, {
+			"bird": {
+        "name": "red breasted merganser", 
+        "order": "Anseriformes", 
+        "status": "least concern"
+    	},
+    	"region":"Idaho",
+    	"date":"4/27/15"
+		}]
 }
