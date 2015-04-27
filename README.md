@@ -19,7 +19,7 @@ Initialize your Node app and install the following packages:
  * `cors`
  * `mongojs`
 
-Install each module, require them at the top of your server file, and initialize your app.
+Initialize your app and set up your middleware.
 
 After you have initialized your app, connect to your database via MongoJS.  This is where you will specify the name of your database and the names of your collections (for now, we'll ust use.  If you need some guidance, take a look at their [documentation](https://github.com/mafintosh/mongojs).
 
