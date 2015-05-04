@@ -1,10 +1,10 @@
 # mini-birds
 ## Objectives
-The purpose of this projet is to solidify your understanding of the MongoDB API.  By the end of the project, you should know how to perform CRUD operations in MongoDB and view your data (via command line or a GUI).
+The purpose of this project is to solidify your understanding of the MongoDB API.  By the end of the project, you should know how to perform CRUD operations in MongoDB and view your data (via command line or a GUI).
 
 We are going to build a bird-sighting API.  Consumers (or, developers who use this API) will be able to:
 
- * Send requests to the API to report a bird sighting 
+ * Send requests to the API to report a bird sighting
  * Send requests to the API to retrieve bird sightings in a specific area, or of a specific species
  * Send requests to change/edit/update a previously reported sighting
  * Send requests to delete/remove a previously reported sighting
@@ -21,9 +21,9 @@ Initialize your Node app and install the following packages:
 
 Initialize your app and set up your middleware.
 
-After you have initialized your app, connect to your database via MongoJS.  This is where you will specify the name of your database and the names of your collections (for now, we'll ust use.  If you need some guidance, take a look at their [documentation](https://github.com/mafintosh/mongojs).
+After you have initialized your app, connect to your database via MongoJS.  This is where you will specify the name of your database and the names of your collections (for now, we'll just use (insert rest of sentence).  If you need some guidance, take a look at their [documentation](https://github.com/mafintosh/mongojs).
 
-**Breakpoint:** At this point, you should be able to start your app (`node server.js`) and see that your app is listening, and have no errrors.  Your app should also be connected to your database, but we will test that functionality later on.
+**Breakpoint:** At this point, you should be able to start your app (`node server.js`) and see that your app is listening, and have no errors.  Your app should also be connected to your database, but we will test that functionality later on.
 
 ## Step 2: Create API
 
