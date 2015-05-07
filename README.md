@@ -24,6 +24,7 @@ Initialize your app and set up your middleware.
 After you have initialized your app, connect to your database via MongoJS.  This is where you will specify the name of your database and the names of your collections (for now, we'll just use a `products` collection).  If you need some guidance, take a look at their [documentation](https://github.com/mafintosh/mongojs).
 
 **Breakpoint:** At this point, you should be able to start your app (`node server.js`) and see that your app is listening, and have no errors.  Your app should also be connected to your database, but we will test that functionality later on.
+// DONE
 
 ## Step 2: Create API
 
@@ -37,6 +38,7 @@ In POSTMan, test each of these endpoints with:
  * **DELETE** `/api/sighting?id=09evasd09jhahs9d8h9vh`
 
 **Breakpoint:** You should be able to hit these endpoints without error.  To make sure they're actually running correctly, put `console.log` in your functions and hit those endpoints with POSTMan to see that they're running.  For the routes that take queries, `console.log` those queries and make sure you're getting them correctly.  We have not connected these routes to the database yet.  We will add that functionality in the next step.
+// DONE
 
 ## Step 3: Connect API to MongoDB
 
